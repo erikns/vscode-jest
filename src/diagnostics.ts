@@ -60,7 +60,6 @@ export function updateDiagnostics(testResults: TestFileAssertionStatus[], diagno
     }
   })
 
-  // Remove diagnostics for files no longer in existence
   const toBeDeleted = []
   diagnostics.forEach(uri => {
     if (!existsSync(uri.fsPath)) {
