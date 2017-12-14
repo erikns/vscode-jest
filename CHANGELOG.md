@@ -1,5 +1,12 @@
 ## Master
 
+### 2.5.1-2
+
+* Add option to disable codelens - goncharov
+
+### 2.5.0
+
+* Allow debugging non-successful tests - CzBuCHi
 
 ### 2.4.5
 
